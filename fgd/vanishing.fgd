@@ -1,0 +1,71 @@
+@include "base.fgd"
+
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = point_playerspeak : 
+	"Let the player say something."
+[
+    
+    StartDisabled(choices) : "Disabled when starts?" : 0 : "Disabled when starts" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+    
+    input Speak(string) : "Speak the sentence!"
+	input Enable(void) : "Enable."
+    input Disable(void) : "Disable."
+    input Toggle(void) : "Toggle enabled/disabled status."
+    
+]
+
+@PointClass base(Parentname, Targetname) size(-8 -8 -8, 8 8 8) = info_hud_target : 
+	"HUD target."
+[
+    
+    Header(string) : "Header" : "#Vanishing.Hud.Target" : "Header of the target prompt."
+    Channel(choices) : "Channel" : 0 : "The channel to use. You cannot use a channel if that channel is in use, or the behavior is undefined." +
+        " This field can contain at most HUD_TARGET_MAX_TARGETS (currently 10) channels." =
+    [
+        0 : "Channel 1"
+        1 : "Channel 2"
+        2 : "Channel 3"
+        3 : "Channel 4"
+        4 : "Channel 5"
+        5 : "Channel 6"
+        6 : "Channel 7"
+        7 : "Channel 8"
+        8 : "Channel 9"
+        9 : "Channel 10"
+    ]
+    
+    input ShowTarget(void) : "Show this target on HUD."
+	input HideTarget(void) : "Hide this target on HUD."
+    
+]
+
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = logic_custom_event : 
+	"Fires custom events."
+[
+    
+    input FireEvent(string) : "Fires a custom event."
+    
+]
+
+@PointClass base(Targetname) size(-8 -8 -8, 8 8 8) = logic_achievement_increment : 
+	"Customize achievement increments."
+[
+    
+    Achievement(choices) : "Achievement" : "" : "Name of the achievement to increment. No 'ACHIEVEMENT_EVENT'." =
+    [
+        "VAN_DJ_FINANCIAL_FREEDOM"        : "[V-DJ] Financial Freedom"
+        "VAN_DJ_WORTH_IT"                 : "[V-DJ] Worth It"
+        "VAN_DJ_EXPENSES_PAY_OFF"         : "[V-DJ] Expenses Pay Off"
+        "VAN_DJ_SEEMS_PROMISING"          : "[V-DJ] Seems Promising"
+        "VAN_DJ_PRIDE_OF_THE_COMBINE"     : "[V-DJ] Pride of the Combine"
+    ]
+    
+    Count(integer) : "Count" : 1 : "Default count."
+    
+    input Increment(void) : "Increment the achievement by the count specified in 'Count' field."
+    input IncrementBy(integer) : "Increment the achievement by a specific count."
+    
+]
