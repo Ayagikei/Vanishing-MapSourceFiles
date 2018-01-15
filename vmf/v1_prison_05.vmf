@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "2854"
+	"mapversion" "2855"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2854"
+	"mapversion" "2855"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -119349,7 +119349,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "1248 -9776 240"
 	editor
 	{
@@ -119391,7 +119391,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "1232 -9792 256"
 	editor
 	{
@@ -119433,7 +119433,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "1200 -9808 228"
 	editor
 	{
@@ -124891,7 +124891,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "260"
+	"spawnflags" "256"
 	"origin" "-464.112 -9367.06 281.763"
 	editor
 	{
@@ -130571,7 +130571,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-1232 -6864 -208"
 	editor
 	{
@@ -132946,7 +132946,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "45.7787 -7143.43 -115.72"
 	editor
 	{
@@ -132988,7 +132988,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "13.3425 -7140.82 -127.284"
 	editor
 	{
@@ -133030,7 +133030,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "54.3312 -7097.57 -127.284"
 	editor
 	{
@@ -133114,7 +133114,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-7.65405 -7085.9 -127.622"
 	editor
 	{
@@ -134000,7 +134000,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-274.258 -7088.61 -127.622"
 	editor
 	{
@@ -134042,7 +134042,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-346.218 -7088.08 -127.622"
 	editor
 	{
@@ -134084,7 +134084,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-343.586 -7120 -104"
 	editor
 	{
@@ -134126,7 +134126,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-438.803 -7152 -96"
 	editor
 	{
@@ -134168,7 +134168,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-543.678 -7232 -104"
 	editor
 	{
@@ -134210,7 +134210,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-126.091 -7112 -128"
 	editor
 	{
@@ -134252,7 +134252,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-265.52 -7168 -120"
 	editor
 	{
@@ -134294,7 +134294,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-206.672 -7188.52 -127.415"
 	editor
 	{
@@ -134336,7 +134336,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-497.207 -7436.42 -127.416"
 	editor
 	{
@@ -135247,6 +135247,7 @@ entity
 	"id" "413115"
 	"classname" "info_node"
 	"nodeid" "470"
+	"spawnflags" "0"
 	"origin" "18.0426 -7152.15 -135"
 	editor
 	{
@@ -135558,7 +135559,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "0"
-	"spawnflags" "262148"
+	"spawnflags" "1310724"
 	"targetname" "env_dow"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -140786,7 +140787,7 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "256"
-	"origin" "-192.798 -8550 -171"
+	"origin" "-184 -8576 -171"
 	editor
 	{
 		"color" "220 30 220"
@@ -146283,7 +146284,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "260"
+	"spawnflags" "256"
 	"origin" "18.2146 -9367.33 274.435"
 	editor
 	{
@@ -146349,7 +146350,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "260"
+	"spawnflags" "256"
 	"origin" "14.241 -9253.4 274.435"
 	editor
 	{
@@ -150948,13 +150949,108 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "506650"
+	"classname" "item_healthkit"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "425.229 -9848.49 223.788"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "506660"
+	"classname" "item_healthkit"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "499.207 -9832.23 223.788"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "506669"
+	"classname" "item_ammo_357"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "459.703 -9847.32 223.783"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "506808"
+	"classname" "item_ammo_357"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "20.4383 -7134.98 -95.7044"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "506821"
+	"classname" "item_battery"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "28.1663 -8896.09 -154.995"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1663.12 -6769.68 -72.8122]"
-		"look" "[-213.484 -13936.4 -4018.1]"
+		"position" "[-26.8854 -9939.83 354.488]"
+		"look" "[8138.28 -8421.89 589.367]"
 	}
 }
 cordon
