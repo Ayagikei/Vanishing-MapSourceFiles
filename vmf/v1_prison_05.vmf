@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "2853"
+	"mapversion" "2854"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2853"
+	"mapversion" "2854"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -123224,7 +123224,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-176 -8352 144"
 	editor
 	{
@@ -123314,7 +123314,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-168.358 -8239.95 153.763"
 	editor
 	{
@@ -124015,7 +124015,7 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "256"
-	"origin" "-560 -8336 144"
+	"origin" "-575.505 -8415.46 144"
 	editor
 	{
 		"color" "220 30 220"
@@ -124891,7 +124891,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-464.112 -9367.06 281.763"
 	editor
 	{
@@ -146283,7 +146283,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "18.2146 -9367.33 274.435"
 	editor
 	{
@@ -146349,7 +146349,7 @@ entity
 	"model" "models/props_c17/furnituremattress001a.mdl"
 	"modelscale" "1.0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "14.241 -9253.4 274.435"
 	editor
 	{
@@ -148371,6 +148371,8 @@ entity
 		"OnTrigger" "soldier_assault1_maker,Kill,,0,-1"
 		"OnTrigger" "soldier_assault1_relay,Kill,,0,-1"
 		"OnTrigger" "p_door_en,Open,,2,-1"
+		"OnTrigger" "HudTarget_Defend,HideTarget,,0,-1"
+		"OnTrigger" "HudTarget_Defend,Kill,,0.1,-1"
 	}
 	"origin" "584 -9488 336"
 	editor
@@ -148541,6 +148543,7 @@ entity
 	connections
 	{
 		"OnTrigger" "script_go,StartSchedule,,1.5,-1"
+		"OnTrigger" "HUDTARGET_DEFEND,ShowTarget,,0,-1"
 	}
 	solid
 	{
@@ -150929,13 +150932,29 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "504319"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Target.Defend"
+	"targetname" "HudTarget_Defend"
+	"origin" "349.389 -9786 376.413"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-622.943 -8173.93 176.928]"
-		"look" "[-348.997 -16475.8 359.624]"
+		"position" "[-1663.12 -6769.68 -72.8122]"
+		"look" "[-213.484 -13936.4 -4018.1]"
 	}
 }
 cordon
