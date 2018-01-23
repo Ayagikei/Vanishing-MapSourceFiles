@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "6941"
+	"mapversion" "6942"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6941"
+	"mapversion" "6942"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -80726,7 +80726,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "6544 9554.56 2820"
 	editor
 	{
@@ -80768,7 +80768,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "6472 9556 2820"
 	editor
 	{
@@ -83970,7 +83970,7 @@ entity
 	"StartDisabled" "1"
 	"targetname" "falldown_npc_temp_02"
 	"TemplateName" "npc_floorfalldown_f"
-	"origin" "6512 9680 2960"
+	"origin" "6370.13 9714.88 2960"
 	editor
 	{
 		"color" "0 0 255"
@@ -83994,7 +83994,7 @@ entity
 	"StartDisabled" "1"
 	"targetname" "falldown_npc_temp_01"
 	"TemplateName" "npc_floorfalldown_f"
-	"origin" "6448 9680 2960"
+	"origin" "6290.63 9677.67 2960"
 	editor
 	{
 		"color" "0 0 255"
@@ -84022,7 +84022,7 @@ entity
 	"targetname" "npc_floorfalldown_f"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	"origin" "6480 9680 2954.36"
+	"origin" "6334 9682 2954.36"
 	editor
 	{
 		"color" "0 200 200"
@@ -102007,13 +102007,49 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
+entity
+{
+	"id" "828064"
+	"classname" "item_healthkit"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "7627.82 10795.2 3265"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "828079"
+	"classname" "item_healthkit"
+	"angles" "0 50 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "7682 10733.9 3304.77"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[8565.91 10954.9 3439.19]"
-		"look" "[-68755.4 -27383 -5403.27]"
+		"position" "[7658.74 10746.4 3328.32]"
+		"look" "[77814 34643.2 -41768.8]"
 	}
 }
 cordon
