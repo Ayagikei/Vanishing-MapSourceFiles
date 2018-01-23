@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "8391"
+	"mapversion" "8392"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8391"
+	"mapversion" "8392"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -101171,7 +101171,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8355.17 10592 3380"
 	editor
 	{
@@ -101213,7 +101213,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8384 10564 3380"
 	editor
 	{
@@ -101255,7 +101255,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8449.82 10544 3376"
 	editor
 	{
@@ -101297,7 +101297,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8352 10544 3376"
 	editor
 	{
@@ -106735,7 +106735,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8880 10320 3408"
 	editor
 	{
@@ -108137,7 +108137,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8960.95 10304 3408"
 	editor
 	{
@@ -108179,7 +108179,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9008 10288 3408"
 	editor
 	{
@@ -108236,7 +108236,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "8792 10264 3400"
 	editor
 	{
@@ -108357,7 +108357,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9148.11 10420.9 3389.32"
 	editor
 	{
@@ -108399,7 +108399,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9136 10496 3389.32"
 	editor
 	{
@@ -108777,7 +108777,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9061.23 10765.5 3376.55"
 	editor
 	{
@@ -112738,7 +112738,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9776 10912 3392"
 	editor
 	{
@@ -112780,7 +112780,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9840 10880 3392"
 	editor
 	{
@@ -123343,6 +123343,7 @@ entity
 		"OnStartTouch" "control,Command,sv_cheats 0,1.01,-1"
 		"OnTrigger" "djaj,Lock,,1.5,-1"
 		"OnTrigger" "brushplayerclip,Enable,,1.55,-1"
+		"OnStartTouch" "HudTarget_CloseTheFence,ShowTarget,,0,-1"
 	}
 	solid
 	{
@@ -125694,6 +125695,7 @@ entity
 		"OnIn" "ill_wang,Kill,,0,-1"
 		"OnIn" "sound_combine_sheild,StopSound,,0,-1"
 		"OnIn" "eeq,Skin,1,0,-1"
+		"OnIn" "HudTarget_CloseTheFence,HideTarget,,0,-1"
 	}
 	solid
 	{
@@ -127826,7 +127828,7 @@ entity
 	"pressuredelay" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9072 10320 3536"
 	editor
 	{
@@ -127864,7 +127866,7 @@ entity
 	"pressuredelay" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9056 10416 3536"
 	editor
 	{
@@ -128072,7 +128074,7 @@ entity
 	"pressuredelay" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "9136 10304 3536"
 	editor
 	{
@@ -129881,6 +129883,7 @@ entity
 	"classname" "info_node"
 	"angles" "0 0 0"
 	"nodeid" "132"
+	"spawnflags" "0"
 	"origin" "9088 10464 3497"
 	editor
 	{
@@ -131226,6 +131229,7 @@ entity
 	{
 		"OnIn" "spr,Color,0 247 0,0,-1"
 		"OnIn" "opendoor_button,Unlock,,0,-1"
+		"OnIn" "HudTarget_OpenTheGate,HideTarget,,0,-1"
 	}
 	solid
 	{
@@ -133158,6 +133162,7 @@ entity
 		"OnTrigger" "combines_portal_d,SetAnimation,close,2,-1"
 		"OnTrigger" "playerclip_portal,Enable,,0,-1"
 		"OnTrigger" "portal_close,PlaySound,,2,-1"
+		"OnTrigger" "HudTarget_Portal,HideTarget,,0,-1"
 	}
 	solid
 	{
@@ -143708,13 +143713,308 @@ entity
 		"logicalpos" "[0 3500]"
 	}
 }
+entity
+{
+	"id" "929109"
+	"classname" "item_battery"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "9728.79 10885.7 3387.69"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "929113"
+	"classname" "item_battery"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "9729.55 10877.6 3387.69"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "929131"
+	"classname" "item_healthkit"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "0"
+	"origin" "9468.54 10683.3 3389.26"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "929181"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Target.CloseTheFence"
+	"targetname" "HudTarget_CloseTheFence"
+	"origin" "-210 8747.5 4148.12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "929201"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Hud.Target"
+	"targetname" "HudTarget_OpenTheGate"
+	"origin" "106.009 8720 4538.84"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "929217"
+	"classname" "trigger_once"
+	"origin" "-544 8280.5 4540.5"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "HudTarget_OpenTheGate,ShowTarget,,0,-1"
+	}
+	solid
+	{
+		"id" "929214"
+		side
+		{
+			"id" "124661"
+			"plane" "(-608 8289 4600) (-480 8289 4600) (-480 8272 4600)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124660"
+			"plane" "(-608 8272 4481) (-480 8272 4481) (-480 8289 4481)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124659"
+			"plane" "(-608 8289 4600) (-608 8272 4600) (-608 8272 4481)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124658"
+			"plane" "(-480 8289 4481) (-480 8272 4481) (-480 8272 4600)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124657"
+			"plane" "(-480 8289 4600) (-608 8289 4600) (-608 8289 4481)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124656"
+			"plane" "(-480 8272 4481) (-608 8272 4481) (-608 8272 4600)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "929230"
+	"classname" "trigger_once"
+	"origin" "-45.15 8478.31 4144.5"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "HudTarget_Portal,ShowTarget,,0,-1"
+	}
+	solid
+	{
+		"id" "929227"
+		side
+		{
+			"id" "124673"
+			"plane" "(-105.152 8494.31 4184) (14.848 8494.31 4184) (14.848 8462.31 4184)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 36.6079] 0.25"
+			"vaxis" "[0 -1 0 -38.7617] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124672"
+			"plane" "(-105.152 8462.31 4105) (14.848 8462.31 4105) (14.848 8494.31 4105)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 36.6079] 0.25"
+			"vaxis" "[0 -1 0 -38.7617] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124671"
+			"plane" "(-105.152 8494.31 4184) (-105.152 8462.31 4184) (-105.152 8462.31 4105)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 38.7617] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124670"
+			"plane" "(14.848 8494.31 4105) (14.848 8462.31 4105) (14.848 8462.31 4184)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 38.7617] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124669"
+			"plane" "(14.848 8494.31 4184) (-105.152 8494.31 4184) (-105.152 8494.31 4105)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 36.6079] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124668"
+			"plane" "(14.848 8462.31 4105) (-105.152 8462.31 4105) (-105.152 8462.31 4184)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 36.6079] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "929234"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Hud.Target"
+	"targetname" "HudTarget_Portal"
+	"origin" "134.711 8027.78 4152"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[9155.83 10549.8 3468.86]"
-		"look" "[3720.27 -29944.8 -13756.6]"
+		"position" "[132.248 8066.27 4203.26]"
+		"look" "[13719.6 -32225.6 -8367.78]"
 	}
 }
 cordon
