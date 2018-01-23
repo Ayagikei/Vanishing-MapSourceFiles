@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "4742"
+	"mapversion" "4744"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4742"
+	"mapversion" "4744"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -78230,6 +78230,7 @@ entity
 		"OnFullyOpen" "opendoor_triggersound,Enable,,0,-1"
 		"OnOpen" "ardoor,Open,,0,-1"
 		"OnFullyClosed" "ardoor,Close,,0,-1"
+		"OnOpen" "HudTarget_Way1,HideTarget,,0,-1"
 	}
 	"origin" "650 8287 2726"
 	editor
@@ -103127,7 +103128,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "524288"
+	"spawnflags" "540672"
 	"spawnobject" "0"
 	solid
 	{
@@ -103241,7 +103242,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "524288"
+	"spawnflags" "540672"
 	"spawnobject" "0"
 	solid
 	{
@@ -118533,7 +118534,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "524288"
+	"spawnflags" "540672"
 	"spawnobject" "0"
 	solid
 	{
@@ -118647,7 +118648,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "524288"
+	"spawnflags" "540672"
 	"spawnobject" "0"
 	solid
 	{
@@ -119244,13 +119245,176 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "666186"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Hud.Target"
+	"targetname" "HudTarget_Way1"
+	"origin" "659 8264.52 2733.27"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "666192"
+	"classname" "trigger_once"
+	"origin" "308 7880 2704.38"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "HudTarget_Way1,ShowTarget,,0,-1"
+	}
+	solid
+	{
+		"id" "666190"
+		side
+		{
+			"id" "85217"
+			"plane" "(296 7912 2724.88) (320 7912 2724.88) (320 7848 2724.88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85216"
+			"plane" "(296 7848 2683.88) (320 7848 2683.88) (320 7912 2683.88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85215"
+			"plane" "(296 7912 2724.88) (296 7848 2724.88) (296 7848 2683.88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85214"
+			"plane" "(320 7912 2683.88) (320 7848 2683.88) (320 7848 2724.88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85213"
+			"plane" "(320 7912 2724.88) (296 7912 2724.88) (296 7912 2683.88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85212"
+			"plane" "(320 7848 2683.88) (296 7848 2683.88) (296 7848 2724.88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "666214"
+	"classname" "weapon_shotgun"
+	"angles" "0 0 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "2540.9 4726.05 2728.39"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "666229"
+	"classname" "item_ammo_smg1"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "2628.49 4828.7 2719.37"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "666231"
+	"classname" "weapon_357"
+	"angles" "0 0 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "1538.34 8013.18 2664.34"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3229.87 4934.38 2818.81]"
-		"look" "[-27281.3 83391.4 1761.01]"
+		"position" "[3040.36 5390.96 2772.22]"
+		"look" "[-19355.3 -48437.6 -57960.5]"
 	}
 }
 cordon
