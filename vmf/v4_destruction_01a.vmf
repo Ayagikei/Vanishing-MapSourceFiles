@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "10165"
+	"mapversion" "10166"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -80,7 +80,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10165"
+	"mapversion" "10166"
 	"classname" "worldspawn"
 	"chaptertitle" "Let's knock down the Combines!"
 	"detailmaterial" "detail/detailsprites"
@@ -116642,6 +116642,7 @@ entity
 	{
 		"OnFullyOpen" "exdoor,Lock,,0,-1"
 		"OnFullyOpen" "beepsound_r,Trigger,,4,-1"
+		"OnFullyOpen" "HudTarget_Bomb,HideTarget,,0,-1"
 	}
 	solid
 	{
@@ -117194,13 +117195,124 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
+entity
+{
+	"id" "1143044"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Hud.Target"
+	"targetname" "HudTarget_Bomb"
+	"origin" "-6280.97 -4995.33 -2362"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1143053"
+	"classname" "trigger_once"
+	"origin" "-6456 -5258.67 -2220"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "HudTarget_Bomb,ShowTarget,,0,-1"
+	}
+	solid
+	{
+		"id" "1143046"
+		side
+		{
+			"id" "175463"
+			"plane" "(-6768 -5248.17 -2048) (-6144 -5248.17 -2048) (-6144 -5269.17 -2048)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175462"
+			"plane" "(-6768 -5269.17 -2392) (-6144 -5269.17 -2392) (-6144 -5248.17 -2392)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175461"
+			"plane" "(-6768 -5248.17 -2048) (-6768 -5269.17 -2048) (-6768 -5269.17 -2392)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175460"
+			"plane" "(-6144 -5248.17 -2392) (-6144 -5269.17 -2392) (-6144 -5269.17 -2048)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175459"
+			"plane" "(-6144 -5248.17 -2048) (-6768 -5248.17 -2048) (-6768 -5248.17 -2392)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175458"
+			"plane" "(-6144 -5269.17 -2392) (-6768 -5269.17 -2392) (-6768 -5269.17 -2048)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-5929.17 -8564.17 -2212.04]"
-		"look" "[-81121 -7863.36 -15945.1]"
+		"position" "[-6330.52 -4998.54 -2354.31]"
+		"look" "[65764.4 10885.1 -22176.8]"
 	}
 }
 cordon

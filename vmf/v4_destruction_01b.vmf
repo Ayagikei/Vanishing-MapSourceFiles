@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "10148"
+	"mapversion" "10150"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -56,7 +56,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10148"
+	"mapversion" "10150"
 	"classname" "worldspawn"
 	"chaptertitle" "Let's knock down the Combines!"
 	"detailmaterial" "detail/detailsprites"
@@ -113984,7 +113984,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "0"
-	"spawnflags" "12847620"
+	"spawnflags" "13896196"
 	"targetname" "radom_man7"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -151291,7 +151291,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_foliage/tree_poplar_01.mdl"
+	"model" "models/dogvsstrider/tree1_trunk.mdl"
 	"skin" "0"
 	"solid" "6"
 	"origin" "-5216 -5008 -2382.62"
@@ -151347,8 +151347,8 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_foliage/tree_poplar_01.mdl"
-	"skin" "1"
+	"model" "models/dogvsstrider/tree1_trunk.mdl"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-5040 -7872 -2382.62"
 	editor
@@ -151382,8 +151382,8 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_foliage/tree_poplar_01.mdl"
-	"skin" "1"
+	"model" "models/dogvsstrider/tree1_trunk.mdl"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-4016 -7872 -2238.62"
 	editor
@@ -151403,8 +151403,8 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_foliage/tree_poplar_01.mdl"
-	"skin" "1"
+	"model" "models/dogvsstrider/tree1_trunk.mdl"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-4011.28 -6828.27 -2382.62"
 	editor
@@ -151438,8 +151438,8 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_foliage/tree_poplar_01.mdl"
-	"skin" "1"
+	"model" "models/dogvsstrider/tree1_trunk.mdl"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-4032 -5232 -2382.62"
 	editor
@@ -153210,7 +153210,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "0"
-	"spawnflags" "264708"
+	"spawnflags" "1313284"
 	"targetname" "task_man"
 	"wakeradius" "0"
 	"wakesquad" "0"
@@ -154583,7 +154583,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_foliage/tree_poplar_01.mdl"
+	"model" "models/dogvsstrider/tree1_trunk.mdl"
 	"skin" "0"
 	"solid" "6"
 	"origin" "-5024 -8576 -2382.62"
@@ -154726,8 +154726,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3066.24 -5891.75 -2336.21]"
-		"look" "[5706.53 -41932.8 1582.08]"
+		"position" "[-5302.69 -5501.24 -2210.15]"
+		"look" "[-2859.74 -42482.1 -6419.61]"
 	}
 }
 cordon
