@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "10657"
+	"mapversion" "10659"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -56,7 +56,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10657"
+	"mapversion" "954"
 	"classname" "worldspawn"
 	"chaptertitle" "Let's knock down the Combines!"
 	"detailmaterial" "detail/detailsprites"
@@ -98184,7 +98184,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-1036 -7312 -2420"
 	editor
 	{
@@ -98226,7 +98226,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-1108 -7264 -2420"
 	editor
 	{
@@ -98268,7 +98268,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-1228 -7324 -2420"
 	editor
 	{
@@ -98310,7 +98310,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"skin" "0"
-	"spawnflags" "256"
+	"spawnflags" "260"
 	"origin" "-968 -7272 -2420"
 	editor
 	{
@@ -115480,6 +115480,7 @@ entity
 	connections
 	{
 		"OnTrigger" "time_playeteam,Enable,,0,-1"
+		"OnTrigger" "HudTarget_Destroy,ShowTarget,,0,-1"
 	}
 	solid
 	{
@@ -121802,6 +121803,7 @@ entity
 		"OnDeath" "blowup_car_explode3,Explode,,1.1,-1"
 		"OnDeath" "fire_3,StartFire,,1.1,-1"
 		"OnDeath" "playercome,Break,,1.25,-1"
+		"OnDeath" "HudTarget_Destroy,HideTarget,,0,-1"
 	}
 	editor
 	{
@@ -123977,13 +123979,29 @@ entity
 		"logicalpos" "[0 2500]"
 	}
 }
+entity
+{
+	"id" "1151202"
+	"classname" "info_hud_target"
+	"Channel" "0"
+	"Header" "#Vanishing.Target.Destroy"
+	"targetname" "HudTarget_Destroy"
+	"origin" "-1878.49 -7934.09 -2239.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1359.67 -6028.22 -2307.16]"
-		"look" "[-4901.56 -41567.2 -20622.7]"
+		"position" "[871.085 -6003.29 -2317.94]"
+		"look" "[-6703.6 -45538.5 1838.37]"
 	}
 }
 cordon
