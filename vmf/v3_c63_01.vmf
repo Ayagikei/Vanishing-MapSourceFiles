@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "4744"
+	"mapversion" "4745"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4744"
+	"mapversion" "4745"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -114348,6 +114348,7 @@ entity
 		"OnTrigger" "sche_zombie_ais,StartSchedule,,0,-1"
 		"OnTrigger" "HL2_song16,PlaySound,,0,-1"
 		"OnTrigger" "dfoor_sc,StartSchedule,,0,-1"
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v3_c63_01_02,0,1"
 	}
 	solid
 	{
@@ -119408,13 +119409,123 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
+entity
+{
+	"id" "669634"
+	"classname" "point_playerspeak"
+	"StartDisabled" "0"
+	"targetname" "pPlayerspeak"
+	"origin" "384.583 8045.63 2673"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "669644"
+	"classname" "trigger_once"
+	"origin" "596 8200 2722"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v3_c63_01_01,0,1"
+	}
+	solid
+	{
+		"id" "669633"
+		side
+		{
+			"id" "85229"
+			"plane" "(376 8304 2779) (816 8304 2779) (816 8096 2779)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85228"
+			"plane" "(376 8096 2665) (816 8096 2665) (816 8304 2665)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85227"
+			"plane" "(376 8304 2779) (376 8096 2779) (376 8096 2665)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85226"
+			"plane" "(816 8304 2665) (816 8096 2665) (816 8096 2779)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85225"
+			"plane" "(816 8304 2779) (376 8304 2779) (376 8304 2665)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85224"
+			"plane" "(816 8096 2665) (376 8096 2665) (376 8096 2779)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3040.36 5390.96 2772.22]"
-		"look" "[-19355.3 -48437.6 -57960.5]"
+		"position" "[735.582 7940.31 2728.99]"
+		"look" "[8906.68 -71810.9 -22971.8]"
 	}
 }
 cordon
