@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "6156"
+	"mapversion" "6157"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6156"
+	"mapversion" "6157"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -135282,6 +135282,7 @@ entity
 	connections
 	{
 		"OnDamagedByPlayer" "zombine_runing,PullGrenade,,0,-1"
+		"OnDeath" "pPlayerspeak,Speak,Vanishing.v3_c63_02_01,0,1"
 	}
 	"origin" "6644.44 6324.53 2817"
 	editor
@@ -135443,6 +135444,7 @@ entity
 	{
 		"OnTrigger" "aiszombine,StartSchedule,,0,-1"
 		"OnTrigger" "zombine_runing,StartSprint,,0,-1"
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v3_c63_02_02,0,1"
 	}
 	solid
 	{
@@ -145234,13 +145236,28 @@ entity
 		"logicalpos" "[0 3000]"
 	}
 }
+entity
+{
+	"id" "759934"
+	"classname" "point_playerspeak"
+	"StartDisabled" "0"
+	"targetname" "pPlayerspeak"
+	"origin" "6542.59 6275.6 2817"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[6566.25 6764.7 2857.2]"
-		"look" "[97651.9 10348.3 -11287]"
+		"position" "[7304.46 5771.46 2725.81]"
+		"look" "[46627.2 88652.8 -6964.71]"
 	}
 }
 cordon

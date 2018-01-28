@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "6942"
+	"mapversion" "6943"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6942"
+	"mapversion" "6943"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -73779,6 +73779,7 @@ entity
 	connections
 	{
 		"OnDeath" "case_ls,InValue,1,0,-1"
+		"OnDeath" "pPlayerspeak,Speak,Vanishing.v3_c63_03_01,0,1"
 	}
 	"origin" "7168 9504 2817"
 	editor
@@ -96204,6 +96205,10 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"spawnflags" "0"
+	connections
+	{
+		"OnPlayerPickup" "pPlayerspeak,Speak,Vanishing.v3_c63_03_02,0,1"
+	}
 	"origin" "7425 10900 3375"
 	editor
 	{
@@ -102043,13 +102048,29 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "830132"
+	"classname" "point_playerspeak"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "pPlayerspeak"
+	"origin" "7240 8479.5 2881.32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[7658.74 10746.4 3328.32]"
-		"look" "[77814 34643.2 -41768.8]"
+		"position" "[7459.5 10923.3 3394.57]"
+		"look" "[-14152.8 -65707.9 -31060.3]"
 	}
 }
 cordon
