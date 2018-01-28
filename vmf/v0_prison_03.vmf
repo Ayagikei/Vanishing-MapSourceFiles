@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "1808"
+	"mapversion" "1809"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1808"
+	"mapversion" "1809"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -80530,7 +80530,7 @@ world
 		side
 		{
 			"id" "28094"
-			"plane" "(6496 -10080 -96) (6500 -10080 -96) (6500 -10528 -96)"
+			"plane" "(6496 -10296 -96) (6496 -10080 -96) (6500 -10080 -96)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -80541,7 +80541,7 @@ world
 		side
 		{
 			"id" "28095"
-			"plane" "(6496 -10528 -208) (6500 -10528 -208) (6500 -10080 -208)"
+			"plane" "(6496 -10080 -208) (6496 -10296 -208) (6500 -10296 -208)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -80552,7 +80552,7 @@ world
 		side
 		{
 			"id" "28096"
-			"plane" "(6496 -10080 -96) (6496 -10528 -96) (6496 -10528 -208)"
+			"plane" "(6496 -10296 -208) (6496 -10080 -208) (6496 -10080 -96)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -80563,7 +80563,7 @@ world
 		side
 		{
 			"id" "28097"
-			"plane" "(6500 -10080 -208) (6500 -10528 -208) (6500 -10528 -96)"
+			"plane" "(6500 -10080 -208) (6500 -10296 -208) (6500 -10296 -96)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -80574,7 +80574,7 @@ world
 		side
 		{
 			"id" "28098"
-			"plane" "(6500 -10080 -96) (6496 -10080 -96) (6496 -10080 -208)"
+			"plane" "(6496 -10080 -208) (6500 -10080 -208) (6500 -10080 -96)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -80585,7 +80585,7 @@ world
 		side
 		{
 			"id" "28099"
-			"plane" "(6500 -10528 -208) (6496 -10528 -208) (6496 -10528 -96)"
+			"plane" "(6500 -10296 -208) (6496 -10296 -208) (6496 -10296 -96)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 16] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -88822,6 +88822,82 @@ world
 		{
 			"color" "145 230 0"
 			"groupid" "206033"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "237146"
+		side
+		{
+			"id" "28231"
+			"plane" "(6496 -10542.4 -94.7062) (6496 -10344 -94.7062) (6500 -10344 -94.7062)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 -27.871] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28230"
+			"plane" "(6496 -10344 -206.706) (6496 -10542.4 -206.706) (6500 -10542.4 -206.706)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 -27.871] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28229"
+			"plane" "(6496 -10542.4 -206.706) (6496 -10344 -206.706) (6496 -10344 -94.7062)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 27.871] 0.25"
+			"vaxis" "[0 0 -1 5.17505] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28228"
+			"plane" "(6500 -10344 -206.706) (6500 -10542.4 -206.706) (6500 -10542.4 -94.7062)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 27.871] 0.25"
+			"vaxis" "[0 0 -1 5.17505] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28227"
+			"plane" "(6496 -10344 -206.706) (6500 -10344 -206.706) (6500 -10344 -94.7062)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 5.17505] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28226"
+			"plane" "(6500 -10542.4 -206.706) (6496 -10542.4 -206.706) (6496 -10542.4 -94.7062)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 5.17505] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 181 246"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -123321,8 +123397,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5458.17 -10639.5 -101.143]"
-		"look" "[5509.25 -12117 -523.108]"
+		"position" "[6575.39 -10214.9 -154.762]"
+		"look" "[6793.44 -8699.71 -297.042]"
 	}
 }
 cordon
