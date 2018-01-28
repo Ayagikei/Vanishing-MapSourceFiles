@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "2855"
+	"mapversion" "2856"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2855"
+	"mapversion" "2856"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -119493,6 +119493,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	connections
+	{
+		"OnPlayerPickup" "pPlayerspeak,Speak,Vanishing.v1_prison_05_01,0,1"
+	}
 	"origin" "1200.94 -9908.36 225"
 	editor
 	{
@@ -125981,6 +125985,7 @@ entity
 	connections
 	{
 		"OnTrigger" "ar_door_02,Close,,0,-1"
+		"OnStartTouch" "pPlayerspeak,Speak,Vanishing.v1_prison_05_05,0,1"
 	}
 	solid
 	{
@@ -148545,6 +148550,7 @@ entity
 	{
 		"OnTrigger" "script_go,StartSchedule,,1.5,-1"
 		"OnTrigger" "HUDTARGET_DEFEND,ShowTarget,,0,-1"
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v1_prison_05_02,0,1"
 	}
 	solid
 	{
@@ -151044,13 +151050,218 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "509130"
+	"classname" "point_playerspeak"
+	"StartDisabled" "0"
+	"targetname" "pPlayerspeak"
+	"origin" "981.345 -9757.13 225"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "509151"
+	"classname" "trigger_once"
+	"origin" "-100 -9600 376"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "pPlayerspeak,Speak,Vanishing.v1_prison_05_03,0,1"
+	}
+	solid
+	{
+		"id" "509149"
+		side
+		{
+			"id" "56059"
+			"plane" "(-200 -9592 440) (0 -9592 440) (0 -9608 440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56058"
+			"plane" "(-200 -9608 312) (0 -9608 312) (0 -9592 312)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56057"
+			"plane" "(-200 -9592 440) (-200 -9608 440) (-200 -9608 312)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56056"
+			"plane" "(0 -9592 312) (0 -9608 312) (0 -9608 440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56055"
+			"plane" "(0 -9592 440) (-200 -9592 440) (-200 -9592 312)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56054"
+			"plane" "(0 -9608 312) (-200 -9608 312) (-200 -9608 440)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "509166"
+	"classname" "trigger_once"
+	"origin" "-652 -7616 -107.5"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "pPlayerspeak,Speak,Vanishing.v1_prison_05_04,0,1"
+	}
+	solid
+	{
+		"id" "509164"
+		side
+		{
+			"id" "56071"
+			"plane" "(-688 -7576 -80) (-616 -7576 -80) (-616 -7656 -80)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56070"
+			"plane" "(-688 -7656 -135) (-616 -7656 -135) (-616 -7576 -135)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56069"
+			"plane" "(-688 -7576 -80) (-688 -7656 -80) (-688 -7656 -135)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56068"
+			"plane" "(-616 -7576 -135) (-616 -7656 -135) (-616 -7656 -80)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56067"
+			"plane" "(-616 -7576 -80) (-688 -7576 -80) (-688 -7576 -135)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56066"
+			"plane" "(-616 -7656 -135) (-688 -7656 -135) (-688 -7656 -80)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-26.8854 -9939.83 354.488]"
-		"look" "[8138.28 -8421.89 589.367]"
+		"position" "[-132.631 -7153.53 -51.7011]"
+		"look" "[-184.929 -15460.7 78.8006]"
 	}
 }
 cordon
