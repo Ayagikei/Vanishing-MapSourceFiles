@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "10166"
+	"mapversion" "10167"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -80,7 +80,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10166"
+	"mapversion" "10167"
 	"classname" "worldspawn"
 	"chaptertitle" "Let's knock down the Combines!"
 	"detailmaterial" "detail/detailsprites"
@@ -91856,6 +91856,7 @@ entity
 		"OnTrigger" "radomtemp1,Spawn,,0,-1"
 		"OnTrigger" "radomtemp3,Spawn,,0,-1"
 		"OnTrigger" "radomtemp2,Spawn,,0,-1"
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v4_destruction_01a_01,0,1"
 	}
 	solid
 	{
@@ -116755,6 +116756,10 @@ entity
 	"spawnflags" "1"
 	"spawnobject" "0"
 	"targetname" "break_door"
+	connections
+	{
+		"OnBreak" "pPlayerspeak,Speak,Vanishing.v4_destruction_01a_02,0,1"
+	}
 	solid
 	{
 		"id" "1124449"
@@ -117306,13 +117311,28 @@ entity
 		"logicalpos" "[0 1000]"
 	}
 }
+entity
+{
+	"id" "1145367"
+	"classname" "point_playerspeak"
+	"StartDisabled" "0"
+	"targetname" "pPlayerspeak"
+	"origin" "-5936.36 -8862.61 -2383"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-6330.52 -4998.54 -2354.31]"
-		"look" "[65764.4 10885.1 -22176.8]"
+		"position" "[-6208.56 -4978.84 -2291.3]"
+		"look" "[67715.7 8042.47 -16732.5]"
 	}
 }
 cordon

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "10659"
+	"mapversion" "10660"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -56,7 +56,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "954"
+	"mapversion" "10660"
 	"classname" "worldspawn"
 	"chaptertitle" "Let's knock down the Combines!"
 	"detailmaterial" "detail/detailsprites"
@@ -115481,6 +115481,7 @@ entity
 	{
 		"OnTrigger" "time_playeteam,Enable,,0,-1"
 		"OnTrigger" "HudTarget_Destroy,ShowTarget,,0,-1"
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v4_destruction_02_01,0,1"
 	}
 	solid
 	{
@@ -123995,13 +123996,28 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "1154073"
+	"classname" "point_playerspeak"
+	"StartDisabled" "0"
+	"targetname" "pPlayerspeak"
+	"origin" "-1735.49 -6184.68 -2255"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[871.085 -6003.29 -2317.94]"
-		"look" "[-6703.6 -45538.5 1838.37]"
+		"position" "[-1841.14 -6328.4 -2057.77]"
+		"look" "[6212.94 28176.1 -21609.2]"
 	}
 }
 cordon
