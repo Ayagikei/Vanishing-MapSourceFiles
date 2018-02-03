@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "8393"
+	"mapversion" "8395"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8393"
+	"mapversion" "8395"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -17335,7 +17335,7 @@ world
 		{
 			"id" "107571"
 			"plane" "(9350 10828 3472) (9350 10832 3472) (9354 10832 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 -1 0 319.996] 0.25"
 			"rotation" "0"
@@ -17346,7 +17346,7 @@ world
 		{
 			"id" "107570"
 			"plane" "(9354 10828 3372) (9354 10832 3372) (9350 10832 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 -1 0 319.996] 0.25"
 			"rotation" "0"
@@ -17357,7 +17357,7 @@ world
 		{
 			"id" "107569"
 			"plane" "(9350 10828 3372) (9350 10832 3372) (9350 10832 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -127.996] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17368,7 +17368,7 @@ world
 		{
 			"id" "107568"
 			"plane" "(9354 10832 3372) (9354 10828 3372) (9354 10828 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -127.996] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17379,7 +17379,7 @@ world
 		{
 			"id" "107567"
 			"plane" "(9350 10832 3372) (9354 10832 3372) (9354 10832 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -17390,7 +17390,7 @@ world
 		{
 			"id" "107566"
 			"plane" "(9354 10828 3372) (9350 10828 3372) (9350 10828 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -51.0068] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17411,7 +17411,7 @@ world
 		{
 			"id" "107577"
 			"plane" "(9350 10784 3472) (9350 10828 3472) (9354 10828 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 -1 0 127.996] 0.25"
 			"rotation" "0"
@@ -17422,7 +17422,7 @@ world
 		{
 			"id" "107576"
 			"plane" "(9354 10784 3468) (9354 10828 3468) (9350 10828 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 96.0063] 0.25"
 			"vaxis" "[0 -1 0 471.996] 0.25"
 			"rotation" "0"
@@ -17433,7 +17433,7 @@ world
 		{
 			"id" "107575"
 			"plane" "(9350 10784 3468) (9350 10828 3468) (9350 10828 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -107.996] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17444,7 +17444,7 @@ world
 		{
 			"id" "107574"
 			"plane" "(9354 10828 3468) (9354 10784 3468) (9354 10784 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -107.996] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17455,7 +17455,7 @@ world
 		{
 			"id" "107573"
 			"plane" "(9350 10828 3468) (9354 10828 3468) (9354 10828 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17466,7 +17466,7 @@ world
 		{
 			"id" "107572"
 			"plane" "(9354 10784 3468) (9350 10784 3468) (9350 10784 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -17487,7 +17487,7 @@ world
 		{
 			"id" "107583"
 			"plane" "(9350 10784 3468) (9350 10788 3468) (9354 10788 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 -1 0 143.996] 0.25"
 			"rotation" "0"
@@ -17498,7 +17498,7 @@ world
 		{
 			"id" "107582"
 			"plane" "(9354 10784 3372) (9354 10788 3372) (9350 10788 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232.006] 0.25"
 			"vaxis" "[0 -1 0 143.996] 0.25"
 			"rotation" "0"
@@ -17509,7 +17509,7 @@ world
 		{
 			"id" "107581"
 			"plane" "(9350 10784 3372) (9350 10788 3372) (9350 10788 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -207.996] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17520,7 +17520,7 @@ world
 		{
 			"id" "107580"
 			"plane" "(9354 10788 3372) (9354 10784 3372) (9354 10784 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -207.996] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17531,7 +17531,7 @@ world
 		{
 			"id" "107579"
 			"plane" "(9350 10788 3372) (9354 10788 3372) (9354 10788 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -51.0068] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -17542,7 +17542,7 @@ world
 		{
 			"id" "107578"
 			"plane" "(9354 10784 3372) (9350 10784 3372) (9350 10784 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -51.0068] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75628,7 +75628,7 @@ world
 		{
 			"id" "108258"
 			"plane" "(9556 10856 3472) (9552 10856 3472) (9552 10860 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[1 0 0 -320.017] 0.25"
 			"rotation" "0"
@@ -75639,7 +75639,7 @@ world
 		{
 			"id" "108257"
 			"plane" "(9552 10856 3372) (9556 10856 3372) (9556 10860 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[1 0 0 -320.017] 0.25"
 			"rotation" "0"
@@ -75650,7 +75650,7 @@ world
 		{
 			"id" "108256"
 			"plane" "(9556 10856 3372) (9552 10856 3372) (9552 10856 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 0.0170898] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75661,7 +75661,7 @@ world
 		{
 			"id" "108255"
 			"plane" "(9552 10860 3372) (9556 10860 3372) (9556 10860 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 0.0170898] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75672,7 +75672,7 @@ world
 		{
 			"id" "108254"
 			"plane" "(9552 10856 3372) (9552 10860 3372) (9552 10860 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -75683,7 +75683,7 @@ world
 		{
 			"id" "108253"
 			"plane" "(9556 10860 3372) (9556 10856 3372) (9556 10856 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 84.9788] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75782,7 +75782,7 @@ world
 		{
 			"id" "108264"
 			"plane" "(9600 10856 3472) (9556 10856 3472) (9556 10860 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[1 0 0 -0.0170898] 0.25"
 			"rotation" "0"
@@ -75793,7 +75793,7 @@ world
 		{
 			"id" "108263"
 			"plane" "(9556 10856 3468) (9600 10856 3468) (9600 10860 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -39.9793] 0.25"
 			"vaxis" "[1 0 0 -168.017] 0.25"
 			"rotation" "0"
@@ -75804,7 +75804,7 @@ world
 		{
 			"id" "108262"
 			"plane" "(9600 10856 3468) (9556 10856 3468) (9556 10856 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 20.0171] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75815,7 +75815,7 @@ world
 		{
 			"id" "108261"
 			"plane" "(9556 10860 3468) (9600 10860 3468) (9600 10860 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 20.0171] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75826,7 +75826,7 @@ world
 		{
 			"id" "108260"
 			"plane" "(9556 10856 3468) (9556 10860 3468) (9556 10860 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -75837,7 +75837,7 @@ world
 		{
 			"id" "108259"
 			"plane" "(9600 10860 3468) (9600 10856 3468) (9600 10856 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -75859,7 +75859,7 @@ world
 		{
 			"id" "108270"
 			"plane" "(9600 10856 3468) (9596 10856 3468) (9596 10860 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[1 0 0 15.9829] 0.25"
 			"rotation" "0"
@@ -75870,7 +75870,7 @@ world
 		{
 			"id" "108269"
 			"plane" "(9596 10856 3372) (9600 10856 3372) (9600 10860 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -159.98] 0.25"
 			"vaxis" "[1 0 0 15.9829] 0.25"
 			"rotation" "0"
@@ -75881,7 +75881,7 @@ world
 		{
 			"id" "108268"
 			"plane" "(9600 10856 3372) (9596 10856 3372) (9596 10856 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 176.017] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75892,7 +75892,7 @@ world
 		{
 			"id" "108267"
 			"plane" "(9596 10860 3372) (9600 10860 3372) (9600 10860 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 176.017] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75903,7 +75903,7 @@ world
 		{
 			"id" "108266"
 			"plane" "(9596 10856 3372) (9596 10860 3372) (9596 10860 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 84.9788] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75914,7 +75914,7 @@ world
 		{
 			"id" "108265"
 			"plane" "(9600 10860 3372) (9600 10856 3372) (9600 10856 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 84.9788] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75936,7 +75936,7 @@ world
 		{
 			"id" "108900"
 			"plane" "(9756 10652 3472) (9756 10656 3472) (9760 10656 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 -1 0 128.083] 0.25"
 			"rotation" "0"
@@ -75947,7 +75947,7 @@ world
 		{
 			"id" "108899"
 			"plane" "(9760 10652 3372) (9760 10656 3372) (9756 10656 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 -1 0 128.083] 0.25"
 			"rotation" "0"
@@ -75958,7 +75958,7 @@ world
 		{
 			"id" "108898"
 			"plane" "(9756 10652 3372) (9756 10656 3372) (9756 10656 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -192.083] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75969,7 +75969,7 @@ world
 		{
 			"id" "108897"
 			"plane" "(9760 10656 3372) (9760 10652 3372) (9760 10652 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -192.083] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -75980,7 +75980,7 @@ world
 		{
 			"id" "108896"
 			"plane" "(9756 10656 3372) (9760 10656 3372) (9760 10656 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -75991,7 +75991,7 @@ world
 		{
 			"id" "108895"
 			"plane" "(9760 10652 3372) (9756 10652 3372) (9756 10652 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -219.14] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -76090,7 +76090,7 @@ world
 		{
 			"id" "108912"
 			"plane" "(9756 10608 3472) (9756 10652 3472) (9760 10652 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 -1 0 448.083] 0.25"
 			"rotation" "0"
@@ -76101,7 +76101,7 @@ world
 		{
 			"id" "108911"
 			"plane" "(9760 10608 3468) (9760 10652 3468) (9756 10652 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 8.13983] 0.25"
 			"vaxis" "[0 -1 0 280.083] 0.25"
 			"rotation" "0"
@@ -76112,7 +76112,7 @@ world
 		{
 			"id" "108910"
 			"plane" "(9756 10608 3468) (9756 10652 3468) (9756 10652 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -172.083] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -76123,7 +76123,7 @@ world
 		{
 			"id" "108909"
 			"plane" "(9760 10652 3468) (9760 10608 3468) (9760 10608 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -172.083] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -76134,7 +76134,7 @@ world
 		{
 			"id" "108908"
 			"plane" "(9756 10652 3468) (9760 10652 3468) (9760 10652 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -76145,7 +76145,7 @@ world
 		{
 			"id" "108907"
 			"plane" "(9760 10608 3468) (9756 10608 3468) (9756 10608 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -76167,7 +76167,7 @@ world
 		{
 			"id" "108918"
 			"plane" "(9756 10608 3468) (9756 10612 3468) (9760 10612 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 -1 0 464.083] 0.25"
 			"rotation" "0"
@@ -76178,7 +76178,7 @@ world
 		{
 			"id" "108917"
 			"plane" "(9760 10608 3372) (9760 10612 3372) (9756 10612 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 144.139] 0.25"
 			"vaxis" "[0 -1 0 464.083] 0.25"
 			"rotation" "0"
@@ -76189,7 +76189,7 @@ world
 		{
 			"id" "108916"
 			"plane" "(9756 10608 3372) (9756 10612 3372) (9756 10612 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -16.0831] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -76200,7 +76200,7 @@ world
 		{
 			"id" "108915"
 			"plane" "(9760 10612 3372) (9760 10608 3372) (9760 10608 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -16.0831] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -76211,7 +76211,7 @@ world
 		{
 			"id" "108914"
 			"plane" "(9756 10612 3372) (9760 10612 3372) (9760 10612 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -219.14] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -76222,7 +76222,7 @@ world
 		{
 			"id" "108913"
 			"plane" "(9760 10608 3372) (9756 10608 3372) (9756 10608 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -219.14] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99045,7 +99045,7 @@ entity
 		{
 			"id" "105443"
 			"plane" "(8646 10668 3472) (8646 10672 3472) (8650 10672 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 -1 0 192] 0.25"
 			"rotation" "0"
@@ -99056,7 +99056,7 @@ entity
 		{
 			"id" "105442"
 			"plane" "(8646 10672 3372) (8646 10668 3372) (8650 10668 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 -1 0 192] 0.25"
 			"rotation" "0"
@@ -99067,7 +99067,7 @@ entity
 		{
 			"id" "105441"
 			"plane" "(8646 10668 3372) (8646 10672 3372) (8646 10672 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99078,7 +99078,7 @@ entity
 		{
 			"id" "105440"
 			"plane" "(8650 10672 3372) (8650 10668 3372) (8650 10668 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99089,7 +99089,7 @@ entity
 		{
 			"id" "105439"
 			"plane" "(8646 10672 3372) (8650 10672 3372) (8650 10672 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -99100,7 +99100,7 @@ entity
 		{
 			"id" "105438"
 			"plane" "(8650 10668 3372) (8646 10668 3372) (8646 10668 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 205] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99121,7 +99121,7 @@ entity
 		{
 			"id" "105449"
 			"plane" "(8646 10624 3472) (8646 10668 3472) (8650 10668 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -99132,7 +99132,7 @@ entity
 		{
 			"id" "105448"
 			"plane" "(8646 10668 3468) (8646 10624 3468) (8650 10624 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -160] 0.25"
 			"vaxis" "[0 -1 0 344] 0.25"
 			"rotation" "0"
@@ -99143,7 +99143,7 @@ entity
 		{
 			"id" "105447"
 			"plane" "(8646 10624 3468) (8646 10668 3468) (8646 10668 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 20] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99154,7 +99154,7 @@ entity
 		{
 			"id" "105446"
 			"plane" "(8650 10668 3468) (8650 10624 3468) (8650 10624 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 20] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99165,7 +99165,7 @@ entity
 		{
 			"id" "105445"
 			"plane" "(8646 10668 3468) (8650 10668 3468) (8650 10668 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -99176,7 +99176,7 @@ entity
 		{
 			"id" "105444"
 			"plane" "(8650 10624 3468) (8646 10624 3468) (8646 10624 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -99197,7 +99197,7 @@ entity
 		{
 			"id" "105455"
 			"plane" "(8646 10624 3468) (8646 10628 3468) (8650 10628 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 -1 0 16] 0.25"
 			"rotation" "0"
@@ -99208,7 +99208,7 @@ entity
 		{
 			"id" "105454"
 			"plane" "(8646 10628 3372) (8646 10624 3372) (8650 10624 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 -24] 0.25"
 			"vaxis" "[0 -1 0 16] 0.25"
 			"rotation" "0"
@@ -99219,7 +99219,7 @@ entity
 		{
 			"id" "105453"
 			"plane" "(8646 10624 3372) (8646 10628 3372) (8646 10628 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 176] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99230,7 +99230,7 @@ entity
 		{
 			"id" "105452"
 			"plane" "(8650 10628 3372) (8650 10624 3372) (8650 10624 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 176] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99241,7 +99241,7 @@ entity
 		{
 			"id" "105451"
 			"plane" "(8646 10628 3372) (8650 10628 3372) (8650 10628 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 205] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -99252,7 +99252,7 @@ entity
 		{
 			"id" "105450"
 			"plane" "(8650 10624 3372) (8646 10624 3372) (8646 10624 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 205] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100083,7 +100083,7 @@ entity
 		{
 			"id" "105671"
 			"plane" "(8518 10588 3472) (8518 10592 3472) (8522 10592 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
 			"rotation" "0"
@@ -100094,7 +100094,7 @@ entity
 		{
 			"id" "105670"
 			"plane" "(8518 10592 3372) (8518 10588 3372) (8522 10588 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 -1 0 -128] 0.25"
 			"rotation" "0"
@@ -100105,7 +100105,7 @@ entity
 		{
 			"id" "105669"
 			"plane" "(8518 10588 3372) (8518 10592 3372) (8518 10592 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100116,7 +100116,7 @@ entity
 		{
 			"id" "105668"
 			"plane" "(8522 10592 3372) (8522 10588 3372) (8522 10588 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100127,7 +100127,7 @@ entity
 		{
 			"id" "105667"
 			"plane" "(8518 10592 3372) (8522 10592 3372) (8522 10592 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -100138,7 +100138,7 @@ entity
 		{
 			"id" "105666"
 			"plane" "(8522 10588 3372) (8518 10588 3372) (8518 10588 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -51] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100159,7 +100159,7 @@ entity
 		{
 			"id" "105677"
 			"plane" "(8518 10544 3472) (8518 10588 3472) (8522 10588 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 -1 0 -320] 0.25"
 			"rotation" "0"
@@ -100170,7 +100170,7 @@ entity
 		{
 			"id" "105676"
 			"plane" "(8518 10588 3468) (8518 10544 3468) (8522 10544 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 96] 0.25"
 			"vaxis" "[0 -1 0 24] 0.25"
 			"rotation" "0"
@@ -100181,7 +100181,7 @@ entity
 		{
 			"id" "105675"
 			"plane" "(8518 10544 3468) (8518 10588 3468) (8518 10588 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 84] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100192,7 +100192,7 @@ entity
 		{
 			"id" "105674"
 			"plane" "(8522 10588 3468) (8522 10544 3468) (8522 10544 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 84] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100203,7 +100203,7 @@ entity
 		{
 			"id" "105673"
 			"plane" "(8518 10588 3468) (8522 10588 3468) (8522 10588 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -100214,7 +100214,7 @@ entity
 		{
 			"id" "105672"
 			"plane" "(8522 10544 3468) (8518 10544 3468) (8518 10544 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -100235,7 +100235,7 @@ entity
 		{
 			"id" "105683"
 			"plane" "(8518 10544 3468) (8518 10548 3468) (8522 10548 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
@@ -100246,7 +100246,7 @@ entity
 		{
 			"id" "105682"
 			"plane" "(8518 10548 3372) (8518 10544 3372) (8522 10544 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 232] 0.25"
 			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
@@ -100257,7 +100257,7 @@ entity
 		{
 			"id" "105681"
 			"plane" "(8518 10544 3372) (8518 10548 3372) (8518 10548 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -16] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100268,7 +100268,7 @@ entity
 		{
 			"id" "105680"
 			"plane" "(8522 10548 3372) (8522 10544 3372) (8522 10544 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -16] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100279,7 +100279,7 @@ entity
 		{
 			"id" "105679"
 			"plane" "(8518 10548 3372) (8522 10548 3372) (8522 10548 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -51] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -100290,7 +100290,7 @@ entity
 		{
 			"id" "105678"
 			"plane" "(8522 10544 3372) (8518 10544 3372) (8518 10544 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -51] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106800,7 +106800,7 @@ entity
 		{
 			"id" "106805"
 			"plane" "(8900 10342 3472) (8896 10342 3472) (8896 10346 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[1 0 0 -256] 0.25"
 			"rotation" "0"
@@ -106811,7 +106811,7 @@ entity
 		{
 			"id" "106804"
 			"plane" "(8896 10342 3372) (8900 10342 3372) (8900 10346 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[1 0 0 -256] 0.25"
 			"rotation" "0"
@@ -106822,7 +106822,7 @@ entity
 		{
 			"id" "106803"
 			"plane" "(8900 10342 3372) (8896 10342 3372) (8896 10342 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 192] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106833,7 +106833,7 @@ entity
 		{
 			"id" "106802"
 			"plane" "(8896 10346 3372) (8900 10346 3372) (8900 10346 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 192] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106844,7 +106844,7 @@ entity
 		{
 			"id" "106801"
 			"plane" "(8896 10342 3372) (8896 10346 3372) (8896 10346 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -106855,7 +106855,7 @@ entity
 		{
 			"id" "106800"
 			"plane" "(8900 10346 3372) (8900 10342 3372) (8900 10342 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 76.9966] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106876,7 +106876,7 @@ entity
 		{
 			"id" "106811"
 			"plane" "(8944 10342 3472) (8900 10342 3472) (8900 10346 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[1 0 0 -448] 0.25"
 			"rotation" "0"
@@ -106887,7 +106887,7 @@ entity
 		{
 			"id" "106810"
 			"plane" "(8900 10342 3468) (8944 10342 3468) (8944 10346 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -31.9966] 0.25"
 			"vaxis" "[1 0 0 -104] 0.25"
 			"rotation" "0"
@@ -106898,7 +106898,7 @@ entity
 		{
 			"id" "106809"
 			"plane" "(8944 10342 3468) (8900 10342 3468) (8900 10342 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 212] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106909,7 +106909,7 @@ entity
 		{
 			"id" "106808"
 			"plane" "(8900 10346 3468) (8944 10346 3468) (8944 10346 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 212] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106920,7 +106920,7 @@ entity
 		{
 			"id" "106807"
 			"plane" "(8900 10342 3468) (8900 10346 3468) (8900 10346 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -106931,7 +106931,7 @@ entity
 		{
 			"id" "106806"
 			"plane" "(8944 10346 3468) (8944 10342 3468) (8944 10342 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -106952,7 +106952,7 @@ entity
 		{
 			"id" "106817"
 			"plane" "(8944 10342 3468) (8940 10342 3468) (8940 10346 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[1 0 0 -432] 0.25"
 			"rotation" "0"
@@ -106963,7 +106963,7 @@ entity
 		{
 			"id" "106816"
 			"plane" "(8940 10342 3372) (8944 10342 3372) (8944 10346 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -151.997] 0.25"
 			"vaxis" "[1 0 0 -432] 0.25"
 			"rotation" "0"
@@ -106974,7 +106974,7 @@ entity
 		{
 			"id" "106815"
 			"plane" "(8944 10342 3372) (8940 10342 3372) (8940 10342 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 112] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106985,7 +106985,7 @@ entity
 		{
 			"id" "106814"
 			"plane" "(8940 10346 3372) (8944 10346 3372) (8944 10346 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 112] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -106996,7 +106996,7 @@ entity
 		{
 			"id" "106813"
 			"plane" "(8940 10342 3372) (8940 10346 3372) (8940 10346 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 76.9966] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107007,7 +107007,7 @@ entity
 		{
 			"id" "106812"
 			"plane" "(8944 10346 3372) (8944 10342 3372) (8944 10342 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 76.9966] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107040,7 +107040,7 @@ entity
 		{
 			"id" "106853"
 			"plane" "(8900 10242 3472) (8896 10242 3472) (8896 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[1 0 0 -256] 0.25"
 			"rotation" "0"
@@ -107051,7 +107051,7 @@ entity
 		{
 			"id" "106852"
 			"plane" "(8896 10242 3372) (8900 10242 3372) (8900 10246 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[1 0 0 -256] 0.25"
 			"rotation" "0"
@@ -107062,7 +107062,7 @@ entity
 		{
 			"id" "106851"
 			"plane" "(8900 10242 3372) (8896 10242 3372) (8896 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -64] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107073,7 +107073,7 @@ entity
 		{
 			"id" "106850"
 			"plane" "(8896 10246 3372) (8900 10246 3372) (8900 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -64] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107084,7 +107084,7 @@ entity
 		{
 			"id" "106849"
 			"plane" "(8896 10242 3372) (8896 10246 3372) (8896 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -107095,7 +107095,7 @@ entity
 		{
 			"id" "106848"
 			"plane" "(8900 10246 3372) (8900 10242 3372) (8900 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 -67.0034] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107116,7 +107116,7 @@ entity
 		{
 			"id" "106859"
 			"plane" "(8944 10242 3472) (8900 10242 3472) (8900 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[1 0 0 64] 0.25"
 			"rotation" "0"
@@ -107127,7 +107127,7 @@ entity
 		{
 			"id" "106858"
 			"plane" "(8900 10242 3468) (8944 10242 3468) (8944 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 112.003] 0.25"
 			"vaxis" "[1 0 0 -104] 0.25"
 			"rotation" "0"
@@ -107138,7 +107138,7 @@ entity
 		{
 			"id" "106857"
 			"plane" "(8944 10242 3468) (8900 10242 3468) (8900 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -44] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107149,7 +107149,7 @@ entity
 		{
 			"id" "106856"
 			"plane" "(8900 10246 3468) (8944 10246 3468) (8944 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -44] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107160,7 +107160,7 @@ entity
 		{
 			"id" "106855"
 			"plane" "(8900 10242 3468) (8900 10246 3468) (8900 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -107171,7 +107171,7 @@ entity
 		{
 			"id" "106854"
 			"plane" "(8944 10246 3468) (8944 10242 3468) (8944 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -107192,7 +107192,7 @@ entity
 		{
 			"id" "106865"
 			"plane" "(8944 10242 3468) (8940 10242 3468) (8940 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[1 0 0 80] 0.25"
 			"rotation" "0"
@@ -107203,7 +107203,7 @@ entity
 		{
 			"id" "106864"
 			"plane" "(8940 10242 3372) (8944 10242 3372) (8944 10246 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 248.003] 0.25"
 			"vaxis" "[1 0 0 80] 0.25"
 			"rotation" "0"
@@ -107214,7 +107214,7 @@ entity
 		{
 			"id" "106863"
 			"plane" "(8944 10242 3372) (8940 10242 3372) (8940 10242 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 112] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107225,7 +107225,7 @@ entity
 		{
 			"id" "106862"
 			"plane" "(8940 10246 3372) (8944 10246 3372) (8944 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 112] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107236,7 +107236,7 @@ entity
 		{
 			"id" "106861"
 			"plane" "(8940 10242 3372) (8940 10246 3372) (8940 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 -67.0034] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107247,7 +107247,7 @@ entity
 		{
 			"id" "106860"
 			"plane" "(8944 10246 3372) (8944 10242 3372) (8944 10242 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 -67.0034] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107280,7 +107280,7 @@ entity
 		{
 			"id" "106901"
 			"plane" "(8756 10242 3472) (8752 10242 3472) (8752 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[1 0 0 320] 0.25"
 			"rotation" "0"
@@ -107291,7 +107291,7 @@ entity
 		{
 			"id" "106900"
 			"plane" "(8752 10242 3372) (8756 10242 3372) (8756 10246 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[1 0 0 320] 0.25"
 			"rotation" "0"
@@ -107302,7 +107302,7 @@ entity
 		{
 			"id" "106899"
 			"plane" "(8756 10242 3372) (8752 10242 3372) (8752 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107313,7 +107313,7 @@ entity
 		{
 			"id" "106898"
 			"plane" "(8752 10246 3372) (8756 10246 3372) (8756 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -128] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107324,7 +107324,7 @@ entity
 		{
 			"id" "106897"
 			"plane" "(8752 10242 3372) (8752 10246 3372) (8752 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
 			"rotation" "0"
@@ -107335,7 +107335,7 @@ entity
 		{
 			"id" "106896"
 			"plane" "(8756 10246 3372) (8756 10242 3372) (8756 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 -67.0034] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107356,7 +107356,7 @@ entity
 		{
 			"id" "106907"
 			"plane" "(8800 10242 3472) (8756 10242 3472) (8756 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[1 0 0 128] 0.25"
 			"rotation" "0"
@@ -107367,7 +107367,7 @@ entity
 		{
 			"id" "106906"
 			"plane" "(8756 10242 3468) (8800 10242 3468) (8800 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 112.003] 0.25"
 			"vaxis" "[1 0 0 472] 0.25"
 			"rotation" "0"
@@ -107378,7 +107378,7 @@ entity
 		{
 			"id" "106905"
 			"plane" "(8800 10242 3468) (8756 10242 3468) (8756 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -108] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107389,7 +107389,7 @@ entity
 		{
 			"id" "106904"
 			"plane" "(8756 10246 3468) (8800 10246 3468) (8800 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -108] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107400,7 +107400,7 @@ entity
 		{
 			"id" "106903"
 			"plane" "(8756 10242 3468) (8756 10246 3468) (8756 10246 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -107411,7 +107411,7 @@ entity
 		{
 			"id" "106902"
 			"plane" "(8800 10246 3468) (8800 10242 3468) (8800 10242 3472)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -107432,7 +107432,7 @@ entity
 		{
 			"id" "106913"
 			"plane" "(8800 10242 3468) (8796 10242 3468) (8796 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[1 0 0 144] 0.25"
 			"rotation" "0"
@@ -107443,7 +107443,7 @@ entity
 		{
 			"id" "106912"
 			"plane" "(8796 10242 3372) (8800 10242 3372) (8800 10246 3372)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -7.99658] 0.25"
 			"vaxis" "[1 0 0 144] 0.25"
 			"rotation" "0"
@@ -107454,7 +107454,7 @@ entity
 		{
 			"id" "106911"
 			"plane" "(8800 10242 3372) (8796 10242 3372) (8796 10242 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -208] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107465,7 +107465,7 @@ entity
 		{
 			"id" "106910"
 			"plane" "(8796 10246 3372) (8800 10246 3372) (8800 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[-1 0 0 -208] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107476,7 +107476,7 @@ entity
 		{
 			"id" "106909"
 			"plane" "(8796 10242 3372) (8796 10246 3372) (8796 10246 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 -67.0034] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -107487,7 +107487,7 @@ entity
 		{
 			"id" "106908"
 			"plane" "(8800 10246 3372) (8800 10242 3372) (8800 10242 3468)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 -67.0034] 0.25"
 			"vaxis" "[0 0 -1 130] 0.25"
 			"rotation" "0"
@@ -115533,7 +115533,7 @@ entity
 	{
 		"OnTrigger" "door_go,SetAnimation,close,0,-1"
 		"OnTrigger" "brush_playerdoor,Enable,,0,-1"
-		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v3_c63_03a_02,3,1"
+		"OnTrigger" "pPlayerspeak,Speak,Vanishing.v3_c63_03a_02,5,1"
 	}
 	solid
 	{
@@ -116831,7 +116831,7 @@ entity
 		{
 			"id" "110590"
 			"plane" "(9084 10508 3813) (9088 10508 3813) (9088 10504 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[-1 0 0 -0.00341797] 0.25"
 			"rotation" "0"
@@ -116842,7 +116842,7 @@ entity
 		{
 			"id" "110589"
 			"plane" "(9088 10508 3713) (9084 10508 3713) (9084 10504 3713)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[-1 0 0 -0.00341797] 0.25"
 			"rotation" "0"
@@ -116864,7 +116864,7 @@ entity
 		{
 			"id" "110587"
 			"plane" "(9088 10504 3713) (9084 10504 3713) (9084 10504 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 192.003] 0.25"
 			"vaxis" "[0 0 -1 470] 0.25"
 			"rotation" "0"
@@ -116875,7 +116875,7 @@ entity
 		{
 			"id" "110586"
 			"plane" "(9088 10508 3713) (9088 10504 3713) (9088 10504 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[0 0 -1 404] 0.25"
 			"rotation" "0"
@@ -116886,7 +116886,7 @@ entity
 		{
 			"id" "110585"
 			"plane" "(9084 10504 3713) (9084 10508 3713) (9084 10508 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -123] 0.25"
 			"vaxis" "[0 0 -1 470] 0.25"
 			"rotation" "0"
@@ -116907,7 +116907,7 @@ entity
 		{
 			"id" "110596"
 			"plane" "(9040 10508 3813) (9084 10508 3813) (9084 10504 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[-1 0 0 -192.003] 0.25"
 			"rotation" "0"
@@ -116918,7 +116918,7 @@ entity
 		{
 			"id" "110595"
 			"plane" "(9084 10508 3809) (9040 10508 3809) (9040 10504 3809)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 168] 0.25"
 			"vaxis" "[-1 0 0 -360.003] 0.25"
 			"rotation" "0"
@@ -116940,7 +116940,7 @@ entity
 		{
 			"id" "110593"
 			"plane" "(9084 10504 3809) (9040 10504 3809) (9040 10504 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 212.003] 0.25"
 			"vaxis" "[0 0 -1 470] 0.25"
 			"rotation" "0"
@@ -116951,7 +116951,7 @@ entity
 		{
 			"id" "110592"
 			"plane" "(9084 10508 3809) (9084 10504 3809) (9084 10504 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[0 0 -1 340] 0.25"
 			"rotation" "0"
@@ -116962,7 +116962,7 @@ entity
 		{
 			"id" "110591"
 			"plane" "(9040 10504 3809) (9040 10508 3809) (9040 10508 3813)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[0 0 -1 340] 0.25"
 			"rotation" "0"
@@ -116983,7 +116983,7 @@ entity
 		{
 			"id" "110602"
 			"plane" "(9040 10508 3809) (9044 10508 3809) (9044 10504 3809)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[-1 0 0 -176.003] 0.25"
 			"rotation" "0"
@@ -116994,7 +116994,7 @@ entity
 		{
 			"id" "110601"
 			"plane" "(9044 10508 3713) (9040 10508 3713) (9040 10504 3713)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 -1 0 48] 0.25"
 			"vaxis" "[-1 0 0 -176.003] 0.25"
 			"rotation" "0"
@@ -117016,7 +117016,7 @@ entity
 		{
 			"id" "110599"
 			"plane" "(9044 10504 3713) (9040 10504 3713) (9040 10504 3809)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[1 0 0 112.003] 0.25"
 			"vaxis" "[0 0 -1 470] 0.25"
 			"rotation" "0"
@@ -117027,7 +117027,7 @@ entity
 		{
 			"id" "110598"
 			"plane" "(9044 10508 3713) (9044 10504 3713) (9044 10504 3809)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -123] 0.25"
 			"vaxis" "[0 0 -1 470] 0.25"
 			"rotation" "0"
@@ -117038,7 +117038,7 @@ entity
 		{
 			"id" "110597"
 			"plane" "(9040 10504 3713) (9040 10508 3713) (9040 10508 3809)"
-			"material" "VMOD/DOOR01A_SKIN12"
+			"material" "VMOD/DOOR01A_SKIN14"
 			"uaxis" "[0 1 0 -123] 0.25"
 			"vaxis" "[0 0 -1 470] 0.25"
 			"rotation" "0"
@@ -144223,8 +144223,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-6860.05 -9063.78 -2284.27]"
-		"look" "[-47241 -8621.14 -20594.5]"
+		"position" "[9464.17 10893.5 3612.03]"
+		"look" "[35359.6 24761.7 -29602.3]"
 	}
 }
 cordon
