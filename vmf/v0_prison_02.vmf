@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "2289"
+	"mapversion" "2295"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2289"
+	"mapversion" "2295"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -155584,6 +155584,9 @@ entity
 		"OnStartTouch" "pt_idle,Speak,Vanishing.v0_prison_02_07,20,-1"
 		"OnStartTouch" "HudTarget_ExitTheRoom,ShowTarget,,0,-1"
 		"OnStartTouch" "HudTarget_Click,ShowTarget,,20,-1"
+		"OnStartTouch" "chapertext,Display,,0,-1"
+		"OnStartTouch" "chaptersong,PlaySound,,0,-1"
+		"OnStartTouch" "chaptersong,StopSound,,6,-1"
 	}
 	solid
 	{
@@ -165770,42 +165773,6 @@ entity
 }
 entity
 {
-	"id" "294375"
-	"classname" "item_healthkit"
-	"angles" "0 0 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "4848.73 -11834.2 129"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5500]"
-	}
-}
-entity
-{
-	"id" "294388"
-	"classname" "item_healthkit"
-	"angles" "0 0 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "4840 -11820 128.281"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5500]"
-	}
-}
-entity
-{
 	"id" "294408"
 	"classname" "weapon_frag"
 	"angles" "0 0 0"
@@ -166085,13 +166052,88 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "301831"
+	"classname" "game_text"
+	"channel" "4"
+	"color" "255 255 255"
+	"color2" "215 215 215"
+	"effect" "0"
+	"fadein" "0.8"
+	"fadeout" "1"
+	"fxtime" "0.25"
+	"holdtime" "4.5"
+	"message" "#Vanishing_map_chapter1"
+	"spawnflags" "1"
+	"targetname" "chapertext"
+	"x" "-1"
+	"y" "0.23"
+	"origin" "8740.79 -11934 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -12268]"
+	}
+}
+entity
+{
+	"id" "301882"
+	"classname" "item_healthkit"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "8771.83 -11933 16.2544"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "301897"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "6"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "song_newChapter"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "17"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "chaptersong"
+	"volstart" "0"
+	"origin" "8713.02 -11991.9 80.4992"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[8624.3 -12512.9 150.147]"
-		"look" "[19844.8 17180.6 -10551]"
+		"position" "[8698.24 -11938.9 113.266]"
+		"look" "[34084.4 -22735.6 -18889.2]"
 	}
 }
 cordon
